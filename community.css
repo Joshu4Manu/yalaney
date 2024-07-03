@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    background-color: white;
+    line-height: 2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: orange;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+nav ul {
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-right: 60px;
+    font-size: 1.3em;
+    transition: 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover,
+a.ex1:active {
+    font-size: 150%;
+}
+
+.container{
+    box-shadow: 0 0 10px black;
+    width: 80%;
+    background-color: orange;
+    margin: 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.container h1{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+.container p {
+    font-size: 1.8rem;
+    color: black;
+    text-align: center;
+}
+
+.container img {
+    text-align: center;
+}
+
+.join{
+    text-align: center;
+}
+
+.signup form p{
+    font-size: 1.5rem;
+}
+
+.signup form a{
+    text-decoration: underline;
+}
+
+.signup a{
+    text-decoration: none;
+    color: #1D3D48;
+    font-size: 1.3rem;
+    transition: 0.3s ease, background-color 0.3s ease;
+}
+
+.signup a:hover{
+    text-decoration: underline;
+    font-size: 100%;
+}
+
+@keyframes crescendo {
+    0% {
+        transform: scale(.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+input[type=email],
+input[type=password],
+input[type=text] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #1D3D48;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.btn {
+    background-color: #1d3d48;
+    color: white;
+    padding: 14px 50px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 1px 0px 2px black;
+    transition: 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #171e20;
+}
+
+.login {
+    padding: 16px;
+}
+
+.login a{
+    display: block;
+    text-decoration: none;
+    color: #1d3d48;
+    text-shadow: 0 0 1.6px black;
+    transition: 0.3s ease, background-color 0.3s ease;
+    font-size: 1.3rem;  
+}
+
+.login a:hover, a.ex1:active{
+    font-size: 150%;
+}
+
+.acc{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.acc a{
+    display: block;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #1D3D48;
+    transition: 0.3s ease, background-color 0.3s ease;
+}
+
+.acc a:hover{
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+.login-2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 45%;
+}
+
+.login-2 a{
+    text-decoration: none;
+    color: #1D3D48;
+    font-size: 1.3rem;
+    transition: 0.3s ease, background-color 0.3s ease;
+}
+
+.login-2 a:hover{
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    background-color: #1D3D48;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column img {
+    color: white;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.footer-column a {
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 5px 40px;
+    transition: 0.3s ease, background-color 0.3s ease;
+}
+
+.footer-link p {
+    margin-right: 90px;
+}
+
+.footer-column a:hover {
+    font-size: 180%;
+}

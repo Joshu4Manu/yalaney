@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    background-color: white;
+    line-height: 2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: orange;
+    border-bottom: 1px solid black;
+}
+
+header img{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+nav ul {
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-right: 60px;
+    font-size: 1.3em;
+    transition: 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover, a.ex1:active{
+    font-size: 150%;
+}
+
+.container{
+    padding: 1rem;
+    justify-content: center;
+    background-color: rgb(110, 170, 152);
+    border-bottom: 5px solid white;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 2.5em;
+    padding-right: 30px;
+    color: white;
+    margin-top: 55px;
+}
+
+.container p{
+    text-align: start;
+    padding: 20px;
+    max-width: 1150px;
+    font-size: 1.8em;
+    margin-left: 80px;
+    padding-right: 30px;
+    color: white;
+}
+
+.container .vision h1{
+    text-align: center;
+}
+
+.container .vision p{
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    background-color: #1D3D48;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column img {
+    color: white;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.footer-column a {
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 5px 40px;
+    transition: 0.3s ease, background-color 0.3s ease;
+}
+
+.footer-link p{
+    margin-right: 90px;
+}
+
+.footer-column a:hover {
+    font-size: 180%;
+}
