@@ -64,7 +64,9 @@ nav ul li a:hover, a.ex1:active {
     font-size: 1.8rem;
     padding-left: 100px;
     max-width: 1150px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .email{
@@ -85,7 +87,7 @@ nav ul li a:hover, a.ex1:active {
     font-weight: bold;
     margin-left: 10px;
     align-self: center;
-    transition: 0.3s ease, background-color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .email a:hover{
@@ -158,4 +160,26 @@ nav ul li a:hover, a.ex1:active {
 
 .footer-column a:hover {
     font-size: 180%;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .content {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
 }

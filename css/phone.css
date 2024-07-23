@@ -97,3 +97,25 @@ nav ul li a:hover, a.ex1:active{
 .footer-column a:hover {
     font-size: 180%;
 }
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .content {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .content {
+        font-size: 16px;
+    }
+}
